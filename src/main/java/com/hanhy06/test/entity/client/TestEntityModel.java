@@ -1,11 +1,9 @@
-package com.hanhy06.client;
+package com.hanhy06.test.entity.client;
 
-import com.hanhy06.test.entity.TestEntity;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.model.EntityModel;
 
-public class TestEntityModel extends EntityModel<TestEntity> {
-
+public class TestEntityModel extends EntityModel<TestEntityRenderState> {
     protected TestEntityModel(ModelPart root) {
         super(root);
     }
