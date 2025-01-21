@@ -1,4 +1,4 @@
-package com.hanhy06.test.entity;
+package com.hanhy06.test.entity.custom;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -32,4 +32,6 @@ public class TestEntity extends Entity {
     protected void writeCustomDataToNbt(NbtCompound nbt) {
 
     }
+
+
 }
